@@ -1,0 +1,40 @@
+{
+  "name": "npm-build-module",
+  "bin": {
+    "npm-build-module": "./npm-build-module.js"
+  },
+  "dependencies": {
+    "dotty": "0.0.2",
+    "underscore": "^1.8.3",
+    "bluebird": "^2.9.34",
+    "fs-extra": "^0.22.1",
+    "minimist": "^1.1.2",
+    "crawl-deps": "0.0.1",
+    "fs-ensure-symlink": "0.0.1",
+    "fs-ensure-link": "0.0.1"
+  },
+  "version": "0.0.1",
+  "description": "Build a npm module from a file",
+  "main": "npm-build-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/npm-build-module.git"
+  },
+  "keywords": [
+    "build",
+    "module",
+    "automatic",
+    "dependency",
+    "ast",
+    "crawl"
+  ],
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggi/npm-build-module/issues"
+  },
+  "homepage": "https://github.com/reggi/npm-build-module#readme"
+}
