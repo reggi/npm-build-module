@@ -1,9 +1,4 @@
-// pass in argument for javascript file
-// flag for building global module
-// read the tree for dependancies
-// get the dependancy versions from root package.json
-// drop dependancies in module package.json
-// if package.json exists only update deps
+#!/usr/bin/env node
 
 var suppress = function(){}
 var dotty = require("dotty")

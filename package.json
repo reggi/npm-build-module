@@ -13,7 +13,7 @@
     "fs-ensure-symlink": "0.0.1",
     "fs-ensure-link": "0.0.1"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build a npm module from a file",
   "main": "npm-build-module.js",
   "scripts": {
